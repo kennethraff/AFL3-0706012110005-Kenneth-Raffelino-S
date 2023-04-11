@@ -14,6 +14,7 @@
 		0416557529E4EF470077B721 /* AFL3_0706012110005_Kenneth_Raffelino_STests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0416557429E4EF470077B721 /* AFL3_0706012110005_Kenneth_Raffelino_STests.swift */; };
 		0416557F29E4EF470077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0416557E29E4EF470077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SUITests.swift */; };
 		0416558129E4EF470077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0416558029E4EF470077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SUITestsLaunchTests.swift */; };
+		0416558E29E4F52F0077B721 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0416558D29E4F52F0077B721 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0416557A29E4EF470077B721 /* AFL3-0706012110005-Kenneth Raffelino SUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFL3-0706012110005-Kenneth Raffelino SUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0416557E29E4EF470077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110005_Kenneth_Raffelino_SUITests.swift; sourceTree = "<group>"; };
 		0416558029E4EF470077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110005_Kenneth_Raffelino_SUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0416558D29E4F52F0077B721 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				0416556329E4EF450077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SApp.swift */,
 				0416556529E4EF450077B721 /* ContentView.swift */,
+				0416558D29E4F52F0077B721 /* CircleImage.swift */,
 				0416556729E4EF470077B721 /* Assets.xcassets */,
 				0416556929E4EF470077B721 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				0416556629E4EF450077B721 /* ContentView.swift in Sources */,
 				0416556429E4EF450077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SApp.swift in Sources */,
+				0416558E29E4F52F0077B721 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
