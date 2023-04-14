@@ -19,6 +19,12 @@
 		04130EE029E8F82600E0EFAB /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04130EDF29E8F82600E0EFAB /* BadgeSymbol.swift */; };
 		04130EE229E8F8A600E0EFAB /* RotateBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04130EE129E8F8A600E0EFAB /* RotateBadgeSymbol.swift */; };
 		04130EE429E8F95D00E0EFAB /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04130EE329E8F95D00E0EFAB /* Badge.swift */; };
+		04130EE729E8FAD700E0EFAB /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 04130EE629E8FAD700E0EFAB /* hikeData.json */; };
+		04130EE929E8FAF300E0EFAB /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04130EE829E8FAF300E0EFAB /* Hike.swift */; };
+		04130EF129E8FB4300E0EFAB /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04130EED29E8FB4300E0EFAB /* GraphCapsule.swift */; };
+		04130EF229E8FB4300E0EFAB /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04130EEE29E8FB4300E0EFAB /* HikeGraph.swift */; };
+		04130EF329E8FB4300E0EFAB /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04130EEF29E8FB4300E0EFAB /* HikeDetail.swift */; };
+		04130EF429E8FB4300E0EFAB /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04130EF029E8FB4300E0EFAB /* HikeView.swift */; };
 		0416556429E4EF450077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0416556329E4EF450077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SApp.swift */; };
 		0416556629E4EF450077B721 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0416556529E4EF450077B721 /* ContentView.swift */; };
 		0416556829E4EF470077B721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0416556729E4EF470077B721 /* Assets.xcassets */; };
@@ -60,6 +66,12 @@
 		04130EDF29E8F82600E0EFAB /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		04130EE129E8F8A600E0EFAB /* RotateBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateBadgeSymbol.swift; sourceTree = "<group>"; };
 		04130EE329E8F95D00E0EFAB /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		04130EE629E8FAD700E0EFAB /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
+		04130EE829E8FAF300E0EFAB /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		04130EED29E8FB4300E0EFAB /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
+		04130EEE29E8FB4300E0EFAB /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
+		04130EEF29E8FB4300E0EFAB /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
+		04130EF029E8FB4300E0EFAB /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		0416556029E4EF450077B721 /* AFL3-0706012110005-Kenneth Raffelino S.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFL3-0706012110005-Kenneth Raffelino S.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0416556329E4EF450077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110005_Kenneth_Raffelino_SApp.swift; sourceTree = "<group>"; };
 		0416556529E4EF450077B721 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +124,7 @@
 			children = (
 				04130ECA29E8E77B00E0EFAB /* Landmark.swift */,
 				04130ECC29E8E7FF00E0EFAB /* ModelData.swift */,
+				04130EE829E8FAF300E0EFAB /* Hike.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -156,6 +169,17 @@
 			path = Badge;
 			sourceTree = "<group>";
 		};
+		04130EEC29E8FB4300E0EFAB /* Hikes */ = {
+			isa = PBXGroup;
+			children = (
+				04130EED29E8FB4300E0EFAB /* GraphCapsule.swift */,
+				04130EEE29E8FB4300E0EFAB /* HikeGraph.swift */,
+				04130EEF29E8FB4300E0EFAB /* HikeDetail.swift */,
+				04130EF029E8FB4300E0EFAB /* HikeView.swift */,
+			);
+			path = Hikes;
+			sourceTree = "<group>";
+		};
 		0416555729E4EF450077B721 = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +203,8 @@
 		0416556229E4EF450077B721 /* AFL3-0706012110005-Kenneth Raffelino S */ = {
 			isa = PBXGroup;
 			children = (
+				04130EEC29E8FB4300E0EFAB /* Hikes */,
+				04130EE629E8FAD700E0EFAB /* hikeData.json */,
 				04130EE529E8F9BD00E0EFAB /* Badge */,
 				04130EDA29E8F54100E0EFAB /* Helpers */,
 				04130ED929E8F53600E0EFAB /* Landmarks */,
@@ -321,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04130EE729E8FAD700E0EFAB /* hikeData.json in Resources */,
 				0416556B29E4EF470077B721 /* Preview Assets.xcassets in Resources */,
 				0416556829E4EF470077B721 /* Assets.xcassets in Resources */,
 				04130EC929E8E74D00E0EFAB /* landmarkData.json in Resources */,
@@ -349,14 +376,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				0416556629E4EF450077B721 /* ContentView.swift in Sources */,
+				04130EF229E8FB4300E0EFAB /* HikeGraph.swift in Sources */,
 				04130EE429E8F95D00E0EFAB /* Badge.swift in Sources */,
 				0416559029E4F6140077B721 /* MapView.swift in Sources */,
+				04130EF129E8FB4300E0EFAB /* GraphCapsule.swift in Sources */,
 				04130EE229E8F8A600E0EFAB /* RotateBadgeSymbol.swift in Sources */,
 				0416556429E4EF450077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SApp.swift in Sources */,
+				04130EF329E8FB4300E0EFAB /* HikeDetail.swift in Sources */,
 				04130ED829E8F50600E0EFAB /* FavoriteButton.swift in Sources */,
+				04130EE929E8FAF300E0EFAB /* Hike.swift in Sources */,
 				04130EDC29E8F5F100E0EFAB /* HexagonParameters.swift in Sources */,
 				04130EE029E8F82600E0EFAB /* BadgeSymbol.swift in Sources */,
 				04130ED429E8EAB300E0EFAB /* LandmarkList.swift in Sources */,
+				04130EF429E8FB4300E0EFAB /* HikeView.swift in Sources */,
 				04130ED629E8EB6E00E0EFAB /* LandmarkDetail.swift in Sources */,
 				04130EDE29E8F63C00E0EFAB /* BadgeBackground.swift in Sources */,
 				0416558E29E4F52F0077B721 /* CircleImage.swift in Sources */,
