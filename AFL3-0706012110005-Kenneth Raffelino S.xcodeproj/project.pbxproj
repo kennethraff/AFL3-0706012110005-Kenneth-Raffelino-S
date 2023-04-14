@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04130EC929E8E74D00E0EFAB /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 04130EC829E8E74D00E0EFAB /* landmarkData.json */; };
+		04130ECB29E8E77B00E0EFAB /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04130ECA29E8E77B00E0EFAB /* Landmark.swift */; };
+		04130ECD29E8E7FF00E0EFAB /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04130ECC29E8E7FF00E0EFAB /* ModelData.swift */; };
+		04130ED229E8E8E500E0EFAB /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04130ED129E8E8E500E0EFAB /* LandmarkRow.swift */; };
 		0416556429E4EF450077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0416556329E4EF450077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SApp.swift */; };
 		0416556629E4EF450077B721 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0416556529E4EF450077B721 /* ContentView.swift */; };
 		0416556829E4EF470077B721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0416556729E4EF470077B721 /* Assets.xcassets */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04130EC829E8E74D00E0EFAB /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		04130ECA29E8E77B00E0EFAB /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		04130ECC29E8E7FF00E0EFAB /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		04130ED129E8E8E500E0EFAB /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		0416556029E4EF450077B721 /* AFL3-0706012110005-Kenneth Raffelino S.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFL3-0706012110005-Kenneth Raffelino S.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0416556329E4EF450077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110005_Kenneth_Raffelino_SApp.swift; sourceTree = "<group>"; };
 		0416556529E4EF450077B721 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +83,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04130ECE29E8E83400E0EFAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0416558F29E4F6140077B721 /* MapView.swift */,
+				0416558D29E4F52F0077B721 /* CircleImage.swift */,
+				0416556529E4EF450077B721 /* ContentView.swift */,
+				04130ED129E8E8E500E0EFAB /* LandmarkRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04130ECF29E8E88F00E0EFAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04130ECA29E8E77B00E0EFAB /* Landmark.swift */,
+				04130ECC29E8E7FF00E0EFAB /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04130ED029E8E8AC00E0EFAB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04130EC829E8E74D00E0EFAB /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		0416555729E4EF450077B721 = {
 			isa = PBXGroup;
 			children = (
@@ -98,10 +134,10 @@
 		0416556229E4EF450077B721 /* AFL3-0706012110005-Kenneth Raffelino S */ = {
 			isa = PBXGroup;
 			children = (
+				04130ED029E8E8AC00E0EFAB /* Resources */,
+				04130ECF29E8E88F00E0EFAB /* Model */,
+				04130ECE29E8E83400E0EFAB /* Views */,
 				0416556329E4EF450077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SApp.swift */,
-				0416556529E4EF450077B721 /* ContentView.swift */,
-				0416558D29E4F52F0077B721 /* CircleImage.swift */,
-				0416558F29E4F6140077B721 /* MapView.swift */,
 				0416556729E4EF470077B721 /* Assets.xcassets */,
 				0416556929E4EF470077B721 /* Preview Content */,
 			);
@@ -239,6 +275,7 @@
 			files = (
 				0416556B29E4EF470077B721 /* Preview Assets.xcassets in Resources */,
 				0416556829E4EF470077B721 /* Assets.xcassets in Resources */,
+				04130EC929E8E74D00E0EFAB /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +304,9 @@
 				0416559029E4F6140077B721 /* MapView.swift in Sources */,
 				0416556429E4EF450077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SApp.swift in Sources */,
 				0416558E29E4F52F0077B721 /* CircleImage.swift in Sources */,
+				04130ECB29E8E77B00E0EFAB /* Landmark.swift in Sources */,
+				04130ED229E8E8E500E0EFAB /* LandmarkRow.swift in Sources */,
+				04130ECD29E8E7FF00E0EFAB /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
