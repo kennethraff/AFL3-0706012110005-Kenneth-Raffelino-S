@@ -24,6 +24,7 @@ struct LandmarkRow: View {
             //buat tanda star favorit
             if landmark.isFavorite {
                             Image(systemName: "star.fill")
+                //kasih warna kuning
                     .foregroundColor(.yellow)
                         }
                 }

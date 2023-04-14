@@ -6,10 +6,15 @@ The elevation, heart rate, and pace of a hike plotted on a graph.
 */
 
 import SwiftUI
+
+//untuk animasi
 extension Animation {
     static func ripple(index: Int) -> Animation {
+        //goyang goyang nya
         Animation.spring(dampingFraction: 0.5)
+        //speed animasinya
             .speed(2)
+        //buat delay nya
             .delay(0.03 * Double(index))
     }
 }

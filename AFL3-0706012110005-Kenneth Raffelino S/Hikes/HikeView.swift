@@ -7,7 +7,7 @@ A view displaying information about a hike, including an elevation graph.
 
 import SwiftUI
 
-
+//buat custom transisi move n fade
 extension AnyTransition {
     static var moveAndFade: AnyTransition {
         //AnyTransition.move(edge: .trailing)
@@ -35,6 +35,8 @@ struct HikeView: View {
 
                 Spacer()
 
+                
+                //button kalau ditekan nanti pake animasi baru ke showDetail
                 Button {
                     withAnimation {
 //                    withAnimation(.easeInOut(duration: 4)){ //kalau mau transisi fade 4 detik
