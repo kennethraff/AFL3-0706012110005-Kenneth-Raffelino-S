@@ -14,16 +14,20 @@ struct Landmark: Hashable, Codable,Identifiable {
     var park: String
     var state: String
     var description: String
+    //buat favorit
+    var isFavorite: Bool
     
-    
+    // inisialisasi untuk gambar gambar landmark
     private var imageName: String
         var image: Image {
             Image(imageName)
         }
     
+    
+    //inisialisasi untuk koordinat
     private var coordinates: Coordinates
 
-    
+    //ini buat inisialisasi titik koordinat tepatnya di mapkit
     var locationCoordinate: CLLocationCoordinate2D {
             CLLocationCoordinate2D(
                 latitude: coordinates.latitude,

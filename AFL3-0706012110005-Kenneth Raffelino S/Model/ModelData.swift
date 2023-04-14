@@ -6,6 +6,14 @@
 //
 
 import Foundation
+import Combine
+
+final class ModelData: ObservableObject {
+    @Published var landmarks: [Landmark] = load("landmarkData.json")
+}
+//loads a file from the main bundle and decodes it as a specified type using JSONDecoder
+
+//Buat array nya landmark buat simpan beberapa landmark
 var landmarks: [Landmark] = load("landmarkData.json")
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
