@@ -242,7 +242,6 @@
 				0416556929E4EF470077B721 /* Preview Content */,
 				04788E1529EE2FBA00018058 /* Profile.swift */,
 				04788E2329EE374D00018058 /* FeatureCard.swift */,
-				04788E2529EE37AD00018058 /* PageView.swift */,
 			);
 			path = "AFL3-0706012110005-Kenneth Raffelino S";
 			sourceTree = "<group>";
@@ -295,6 +294,7 @@
 		04788E2029EE364A00018058 /* PageView */ = {
 			isa = PBXGroup;
 			children = (
+				04788E2529EE37AD00018058 /* PageView.swift */,
 				04788E2129EE365D00018058 /* PageViewController.swift */,
 			);
 			path = PageView;
