@@ -34,6 +34,9 @@
 		0416558129E4EF470077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0416558029E4EF470077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SUITestsLaunchTests.swift */; };
 		0416558E29E4F52F0077B721 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0416558D29E4F52F0077B721 /* CircleImage.swift */; };
 		0416559029E4F6140077B721 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0416558F29E4F6140077B721 /* MapView.swift */; };
+		04788E1029EE257F00018058 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04788E0F29EE257F00018058 /* CategoryHome.swift */; };
+		04788E1229EE270500018058 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04788E1129EE270500018058 /* CategoryRow.swift */; };
+		04788E1429EE282F00018058 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04788E1329EE282F00018058 /* CategoryItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +87,9 @@
 		0416558029E4EF470077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110005_Kenneth_Raffelino_SUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0416558D29E4F52F0077B721 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		0416558F29E4F6140077B721 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		04788E0F29EE257F00018058 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		04788E1129EE270500018058 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		04788E1329EE282F00018058 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,7 @@
 		04130ECE29E8E83400E0EFAB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				04788E0C29EE252A00018058 /* Category */,
 				0416556529E4EF450077B721 /* ContentView.swift */,
 			);
 			path = Views;
@@ -241,6 +248,16 @@
 				0416558029E4EF470077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SUITestsLaunchTests.swift */,
 			);
 			path = "AFL3-0706012110005-Kenneth Raffelino SUITests";
+			sourceTree = "<group>";
+		};
+		04788E0C29EE252A00018058 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				04788E0F29EE257F00018058 /* CategoryHome.swift */,
+				04788E1129EE270500018058 /* CategoryRow.swift */,
+				04788E1329EE282F00018058 /* CategoryItem.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -375,13 +392,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04788E1229EE270500018058 /* CategoryRow.swift in Sources */,
 				0416556629E4EF450077B721 /* ContentView.swift in Sources */,
+				04788E1029EE257F00018058 /* CategoryHome.swift in Sources */,
 				04130EF229E8FB4300E0EFAB /* HikeGraph.swift in Sources */,
 				04130EE429E8F95D00E0EFAB /* Badge.swift in Sources */,
 				0416559029E4F6140077B721 /* MapView.swift in Sources */,
 				04130EF129E8FB4300E0EFAB /* GraphCapsule.swift in Sources */,
 				04130EE229E8F8A600E0EFAB /* RotateBadgeSymbol.swift in Sources */,
 				0416556429E4EF450077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SApp.swift in Sources */,
+				04788E1429EE282F00018058 /* CategoryItem.swift in Sources */,
 				04130EF329E8FB4300E0EFAB /* HikeDetail.swift in Sources */,
 				04130ED829E8F50600E0EFAB /* FavoriteButton.swift in Sources */,
 				04130EE929E8FAF300E0EFAB /* Hike.swift in Sources */,
