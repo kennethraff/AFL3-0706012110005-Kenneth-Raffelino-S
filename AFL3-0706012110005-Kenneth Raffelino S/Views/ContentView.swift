@@ -8,45 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selection: Tab = .featured
+
+    enum Tab {
+        case featured
+        case list
+    }
+
     var body: some View {
-        VStack {
+        TabView(selection: $selection) {
+            CategoryHome()
+                .tabItem {
+                    Label("Featured", systemImage: "star")
+                }
+                .tag(Tab.featured)
+
             LandmarkList()
-            //            MapView().frame(height: 300).ignoresSafeArea(edges: .top)
-            //
-            ////            Image(systemName: "globe")
-            ////                .imageScale(.large)
-            ////                .foregroundColor(.accentColor)
-            //            CircleImage()
-            //                            .offset(y: -130)
-            //                            .padding(.bottom, -130)
-            //            VStack (alignment: .leading){
-            //                Text("Turtle Rock")
-            //                    .font(.title).foregroundColor(.black)
-            //                HStack {
-            //                    Text("Joshua Tree National Park")
-            //                        .font(.subheadline)
-            //                    Spacer()
-            //                    Text("California")
-            //                        .font(.subheadline)
-            //                }
-            //                .font(.subheadline)
-            //                                .foregroundColor(.secondary)
-            //
-            //                Divider()
-            //
-            //                                Text("About Turtle Rock")
-            //                                    .font(.title2)
-            //                                Text("Descriptive text goes here.")
-            //            }
-            //        }
-            //        .padding()
+                .tabItem {
+                    Label("List", systemImage: "list.bullet")
+                }
+                .tag(Tab.list)
         }
     }
-    
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            ContentView()
-                .environmentObject(ModelData())
-        }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+            .environmentObject(ModelData())
     }
 }
