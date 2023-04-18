@@ -45,6 +45,7 @@
 		04788E2229EE365D00018058 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04788E2129EE365D00018058 /* PageViewController.swift */; };
 		04788E2429EE374D00018058 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04788E2329EE374D00018058 /* FeatureCard.swift */; };
 		04788E2629EE37AD00018058 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04788E2529EE37AD00018058 /* PageView.swift */; };
+		04788E2829EE3B6000018058 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04788E2729EE3B6000018058 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,7 @@
 		04788E2129EE365D00018058 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		04788E2329EE374D00018058 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		04788E2529EE37AD00018058 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		04788E2729EE3B6000018058 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +298,7 @@
 			children = (
 				04788E2529EE37AD00018058 /* PageView.swift */,
 				04788E2129EE365D00018058 /* PageViewController.swift */,
+				04788E2729EE3B6000018058 /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -442,6 +445,7 @@
 				04130EE429E8F95D00E0EFAB /* Badge.swift in Sources */,
 				0416559029E4F6140077B721 /* MapView.swift in Sources */,
 				04130EF129E8FB4300E0EFAB /* GraphCapsule.swift in Sources */,
+				04788E2829EE3B6000018058 /* PageControl.swift in Sources */,
 				04130EE229E8F8A600E0EFAB /* RotateBadgeSymbol.swift in Sources */,
 				0416556429E4EF450077B721 /* AFL3_0706012110005_Kenneth_Raffelino_SApp.swift in Sources */,
 				04788E1429EE282F00018058 /* CategoryItem.swift in Sources */,
