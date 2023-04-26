@@ -54,6 +54,9 @@
 		0472EC0929F98B04004E2B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0416556729E4EF470077B721 /* Assets.xcassets */; };
 		0472EC0A29F98B04004E2B68 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04130ED129E8E8E500E0EFAB /* LandmarkRow.swift */; };
 		0472EC0C29F98DC7004E2B68 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0472EC0B29F98DC7004E2B68 /* LandmarkDetail.swift */; };
+		0472EC0E29F99439004E2B68 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0472EC0D29F99439004E2B68 /* LandmarkCommands.swift */; };
+		0472EC0F29F99439004E2B68 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0472EC0D29F99439004E2B68 /* LandmarkCommands.swift */; };
+		0472EC1129F998A4004E2B68 /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0472EC1029F998A4004E2B68 /* LandmarkSettings.swift */; };
 		04788E1029EE257F00018058 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04788E0F29EE257F00018058 /* CategoryHome.swift */; };
 		04788E1229EE270500018058 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04788E1129EE270500018058 /* CategoryRow.swift */; };
 		04788E1429EE282F00018058 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04788E1329EE282F00018058 /* CategoryItem.swift */; };
@@ -141,6 +144,8 @@
 		0472EBF029F843B0004E2B68 /* MacLandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLandmarksUITests.swift; sourceTree = "<group>"; };
 		0472EBF229F843B0004E2B68 /* MacLandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0472EC0B29F98DC7004E2B68 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		0472EC0D29F99439004E2B68 /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = SOURCE_ROOT; };
+		0472EC1029F998A4004E2B68 /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 		04788E0F29EE257F00018058 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		04788E1129EE270500018058 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		04788E1329EE282F00018058 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
@@ -348,11 +353,13 @@
 		0472EBD329F843A9004E2B68 /* MacLandmarks */ = {
 			isa = PBXGroup;
 			children = (
+				0472EC0D29F99439004E2B68 /* LandmarkCommands.swift */,
 				0472EBD629F843A9004E2B68 /* ContentView.swift */,
 				0472EBD829F843AF004E2B68 /* Assets.xcassets */,
 				0472EBDD29F843AF004E2B68 /* MacLandmarks.entitlements */,
 				0472EBDA29F843AF004E2B68 /* Preview Content */,
 				0472EC0B29F98DC7004E2B68 /* LandmarkDetail.swift */,
+				0472EC1029F998A4004E2B68 /* LandmarkSettings.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -639,6 +646,7 @@
 			files = (
 				04788E1229EE270500018058 /* CategoryRow.swift in Sources */,
 				04788E1629EE2FBA00018058 /* Profile.swift in Sources */,
+				0472EC0E29F99439004E2B68 /* LandmarkCommands.swift in Sources */,
 				04788E1B29EE303D00018058 /* ProfileSumary.swift in Sources */,
 				0416556629E4EF450077B721 /* ContentView.swift in Sources */,
 				04788E2429EE374D00018058 /* FeatureCard.swift in Sources */,
@@ -695,8 +703,10 @@
 			files = (
 				0472EBFE29F98B04004E2B68 /* Hike.swift in Sources */,
 				0472EBFF29F98B04004E2B68 /* Profile.swift in Sources */,
+				0472EC1129F998A4004E2B68 /* LandmarkSettings.swift in Sources */,
 				0472EC0729F98B04004E2B68 /* ModelData.swift in Sources */,
 				0472EC0029F98B04004E2B68 /* AFL3_0706012110005_Kenneth_Raffelino_SApp.swift in Sources */,
+				0472EC0F29F99439004E2B68 /* LandmarkCommands.swift in Sources */,
 				0472EC0C29F98DC7004E2B68 /* LandmarkDetail.swift in Sources */,
 				0472EC0629F98B04004E2B68 /* Landmark.swift in Sources */,
 				0472EC0329F98B04004E2B68 /* LandmarkList.swift in Sources */,
